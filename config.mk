@@ -12,11 +12,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-VENDOR_PATH := vendor/SamsungMusic
+VENDOR_PATH := vendor/samsungmusic
 
 # Permissions
 PRODUCT_COPY_FILES += \
-    vendor/SamsungMusic/system/etc/permissions/privapp-permissions-gcam.xml:system/etc/permissions/privapp-permissions-gcam.xml
+    vendor/samsungmusic/system/etc/permissions/privapp-permissions-gcam.xml:system/etc/permissions/privapp-permissions-gcam.xml
 
 PRODUCT_PACKAGES += \
     SamsungMusic
