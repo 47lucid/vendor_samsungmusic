@@ -14,9 +14,5 @@
 
 VENDOR_PATH := vendor/samsungmusic
 
-# Permissions
-PRODUCT_COPY_FILES += \
-    vendor/samsungmusic/system/etc/permissions/privapp-permissions-gcam.xml:system/etc/permissions/privapp-permissions-gcam.xml
-
 PRODUCT_PACKAGES += \
     SamsungMusic
